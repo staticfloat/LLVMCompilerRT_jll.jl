@@ -1,6 +1,6 @@
 name = "LLVMCompilerRT_jll"
 uuid = "4e17d02c-6bf5-513e-be62-445f41c75a11"
-version = "16.0.6+1"
+version = "17.0.6+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
