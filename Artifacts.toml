@@ -1,116 +1,353 @@
 [[LLVMCompilerRT]]
-arch = "aarch64"
-git-tree-sha1 = "d793abb70ccb4048b2c4c0480b3e5b339e478cee"
-os = "macos"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "be4a0432637d8d5f5186dd7a18c052d45182aceb1fbaad1d95b7e90ee20a9c83"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.aarch64-apple-darwin.tar.gz"
-[[LLVMCompilerRT]]
-arch = "aarch64"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
+arch = "x86_64"
+git-tree-sha1 = "da59a5e50efd2a07c1d4217f8889456e508e86d9"
 libc = "glibc"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.aarch64-linux-gnu.tar.gz"
+    sha256 = "0d97e2cae961d8168fe4a25473723d76650b2d3c5273c3d13b6dc0f160d178cb"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-x86_64-linux-gnu.tar.gz"
 [[LLVMCompilerRT]]
-arch = "aarch64"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
-libc = "musl"
-os = "linux"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.aarch64-linux-musl.tar.gz"
-[[LLVMCompilerRT]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
+arch = "i686"
+git-tree-sha1 = "68c27520c816ceec4ab9cd65688d8e1c195106c5"
 libc = "glibc"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "5eda04b1a4d791ed99a88d7d7c21c3833be0d34a83a4ca73f4ac168d9619f70c"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-i686-linux-gnu.tar.gz"
 [[LLVMCompilerRT]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
-libc = "musl"
+arch = "aarch64"
+git-tree-sha1 = "b2e9ab72efd5f3af73be9de612bdc367aff95a7b"
+libc = "glibc"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "42e33b021c57a003db5119cdac4ea39ce215c75a1ea62eff3b45bb4d495f2a01"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-aarch64-linux-gnu.tar.gz"
 [[LLVMCompilerRT]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
+git-tree-sha1 = "d3b83b64d0e25a4e074fcce60c63de2d5e04ad78"
 libc = "glibc"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "57e85109377343b89f5bfd2c64f476671abcfb07cfe1eb6b0a7c604044f43ecd"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 [[LLVMCompilerRT]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d8b892c7e499967271c66631f21c7a7bed4a0060"
+arch = "powerpc64le"
+git-tree-sha1 = "369db753febf4f658544f1cf20311b24f12381b9"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "a5baa5210bf5f9986ee375b9be95d7c139b618237faf8691e711f57e452898dc"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+[[LLVMCompilerRT]]
+arch = "x86_64"
+git-tree-sha1 = "dccc84fe6026e67ab03cf59f184237b1fa6c7e04"
 libc = "musl"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "250df83618e09e44bffe092e272cbbce9b669ddbd28f67d735e6de206352a718"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "57c4e2fb450c91527c2e872f1531073e207cf30e0d85a22ff009e67df361a63f"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-x86_64-linux-musl.tar.gz"
 [[LLVMCompilerRT]]
 arch = "i686"
-git-tree-sha1 = "712189b811f5210aa49273d200f1558e48eac244"
-libc = "glibc"
+git-tree-sha1 = "3cfbbd3e07c07252f1a3fb83ccbab9d2b920bfb7"
+libc = "musl"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "1877a128621443ad4361a2785a8b493602028cd882ac6999b7e987915a1517e1"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.i686-linux-gnu.tar.gz"
+    sha256 = "9363f0d2a49ed564e5d229cc877cec4ab58cc99ba71fbcfa6180d2d2ec4066d1"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-i686-linux-musl.tar.gz"
 [[LLVMCompilerRT]]
-arch = "i686"
-git-tree-sha1 = "30a85ce12d255bc4c6f2c9aa77fe957c16dedb15"
-os = "windows"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "ba83af08f9003ea039fcae0964f59f0a78eb33284420c0534e4aa902459a6c62"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.i686-w64-mingw32.tar.gz"
-[[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "5c6b904c05a4cea31c87cb1d7b9f95903fbb1805"
-os = "macos"
-
-    [[LLVMCompilerRT.download]]
-    sha256 = "acf93a2a166551eff5db7b18dc7144446a49f0af0d11e45be7033303ca37a4f6"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-apple-darwin.tar.gz"
-[[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "5c7d4222646e2a03adf3b79dc06f3f5b18c669d3"
-libc = "glibc"
+arch = "aarch64"
+git-tree-sha1 = "059b3a89b13f47f2f9d65d64076126bed7f10a9c"
+libc = "musl"
 os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "81a601d4fa01887f300f28407b4ef6779014db27f976d93c09e4d3ee46690c8e"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-linux-gnu.tar.gz"
+    sha256 = "33603e2e7919d4b6c7d046ccb1c3eb7678cfbe4708e59cd7beba30a6e1be03d5"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-aarch64-linux-musl.tar.gz"
 [[LLVMCompilerRT]]
-arch = "x86_64"
-git-tree-sha1 = "87a836790da5a608210cfeaded9b23802dd804c6"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3e387bebfcd9afe3d1809f46d72b24901fc9d07f"
+libc = "musl"
+os = "linux"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "8d972ba6846b2ef65eefccb2e80b9d74f536688b4d5569ed34bf7744fd41dae2"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "19064445c4a4ade1f476644cd6eefb42e120e339d839883106d8ed81b34dded0"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e55d3fd83899e6aa4f51a5c861912fca2f1fa42b"
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "447adeb57044755c768cefe7699c4263c88bf9c440803eb0c6f6f5d07a73762a"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[LLVMCompilerRT]]
 arch = "x86_64"
-git-tree-sha1 = "90de9d9999c384867f12930cd4e13bc3207a1e7b"
+git-tree-sha1 = "966b31080bd54350d5a2f39e4384b842c67e2959"
 os = "windows"
 
     [[LLVMCompilerRT.download]]
-    sha256 = "46ebec82816806ab91a7a45079315771af63ef00a533289dcc9f2e558aa12080"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMCompilerRT_jll.jl/releases/download/LLVMCompilerRT-v17.0.6+0/LLVMCompilerRT.v17.0.6.x86_64-w64-mingw32.tar.gz"
+    sha256 = "b83d309783b92c29060189465f167d784caad90887ffc36d73de19f984253e75"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-x86_64-w64-mingw32.tar.gz"
+[[LLVMCompilerRT]]
+arch = "i686"
+git-tree-sha1 = "93b2a4dad059fbfaa5e6ae497aae221dfecddc3d"
+os = "windows"
+
+    [[LLVMCompilerRT.download]]
+    sha256 = "b88a7d0f671bd862ec87d2c7efdfef18d8416e2f0eba2898bb0693df57215603"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-v17.0.7-i686-w64-mingw32.tar.gz"
+
+[[LLVMCompilerRT-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "2394d049f167f6dc1ad240b4af3c5d2a630a9791"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "a1bb5c94ec66265705ef5a32b929abed74662eb62f4cdc93be916f6ee552fd03"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "i686"
+git-tree-sha1 = "c34878c1b5cc4729a2138a4d33ec94bbd08349fd"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "06dcdc0bee0caf81c926b54976011a9f72ea08a8ddbdbc1c53d49bbbd10710bb"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-i686-linux-gnu.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "a0e245d75e22c5b5582212c0374343ca1e665e0e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "eb3ff1c2f69673e844314e9399452ab4263bd919d4faebd975a95399521bafeb"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "fae32b29be3666769e2f30feba2a7ba65d3fc052"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "cdb328c6f780265e7c23f38f52695f131d5c5b144a821f01954a2d92e4c69664"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "94a39455501df8e087f398003e36fdd3d881c1ec"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "f1e4ab9bf2a6427b07a1ec3de40b52ce32220b365b003a23c83ea965a84fe0cf"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "13458ffb8174f95694de18f5a8ea372ac97e38ef"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "63ed12affb5e0197297e9181b27952471cad7278cd8c516fdcbe2cb0cd185617"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "i686"
+git-tree-sha1 = "c96da854ad0b00f5e76592c3c4d25eea289d7c3f"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "ce203a864c318a62b3650c005f385bf1f012ac56221dfcf325d84829f25a2d4a"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-i686-linux-musl.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "30e2af77c8bc98d7c5e3f47d41468e83d8343bb4"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "386881d6f829c08f904635ab86c6364ca6621cb5da8d4043f805caa27b8448c4"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "ce147712c0708e9078ee641ed7164d7207fd8ee2"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "a8f25a4781866e3d4fdf993f0a851436dd7963f747e5ccfe0c0d1d827a895cf4"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "82ff3f1e6daa4080571594ff2851551b2b9bb838"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "4d318e3048c66ffa43c99422e706ab221736ede34ff1c1a7465e8f2d4248f1a8"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "4fa925c11c37496c191d877a9044493041e08e3c"
+lazy = true
+os = "windows"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "a29ef9c5eb3424f6452618f7c6e6b6d357335887e264460418e985ddf5e7bd4e"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
+[[LLVMCompilerRT-build_log]]
+arch = "i686"
+git-tree-sha1 = "a4eb4371e5a244396444c0d35eb1e4332036308a"
+lazy = true
+os = "windows"
+
+    [[LLVMCompilerRT-build_log.download]]
+    sha256 = "4c8c5e8795e762646f3757031a77bb830436db7959a94272e4ce05371d43e07e"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
+
+[[LLVMCompilerRT-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "aa37348cc41a84eea02d38b775682c1da20fb309"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "9212d7ecaf29d5eb74d88951405c09f59c4ccb9da218e0b4f0450abb4afa94b6"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "i686"
+git-tree-sha1 = "4cd40761dd41a4d3acc32e84863bbb1459e1bf1e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "7e4adedafeeab6aef958b5eab012cb806e4b99c0e26da58118393e7fae06b014"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "9857da7c6ff0b4d03409f96dbc2a1bdf2c609058"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "0b67eeaf2c896b5d3b99a0310ae14abf15836e5e19d437ce593ff140c73478b8"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "23bbb76e25b921c49eb5ea5dd89db7f4e7646965"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "9af743083d16c50380856bcf17b86c5a3532393a9c6aad1c7cd21855ac2a7114"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "4758b8000cca08d71679db96b80ca55db19b77dc"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "ced53a3b1cc839fd45e35c7c762b77c7a85a86fc59ab682b910bdfa8a1320d24"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "b6656fff2763fd2262e56a05559671d92d17017d"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "0eb07373406ae8fd91e826aed5b72f096736a57603c4241f901480739dd8c44d"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "i686"
+git-tree-sha1 = "143192f9f0262a2197e9c456c8537e76a8f3f34e"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "073023a1fd63966fd51756e1192e346f10f2068a46b6ebfbbdc156412c65d1b2"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-musl.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "dd89ac66f2d42d5714d17d62da2ec371c300723f"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "b1028da3c5c715cee406caa790440d4e439318227add82813d83fb60e3ab01d6"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b29fa96478299d2d948324697b9fd75c148c6f28"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "2a7924f885a527369db2b93c533902ea15fb384bd5a3ad4ecd6eb1864d9b7fd3"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "71221c4a39d9ceef9bad32739de090f11a8fc457"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "6ce79836a3865806e7b2565572398d085137b17b533f68fb7a659ab64b2e3d20"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "92b83ae33a11c2c709516c0342d423c3e6d54dcf"
+lazy = true
+os = "windows"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "ae6470f9a8d57f7203c2577b20c20baf18426639b51c57f3188fcbb52aa7dbee"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
+[[LLVMCompilerRT-extract_log]]
+arch = "i686"
+git-tree-sha1 = "4a42a87f4bf02ba6b51a80e669f9a2a2b91ef73b"
+lazy = true
+os = "windows"
+
+    [[LLVMCompilerRT-extract_log.download]]
+    sha256 = "d4882041d73b4f8dbb551faefa9d12fa6067b187b398c7e6d6d2b0fa37067c00"
+    url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCC/LLVMCompilerRT-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
