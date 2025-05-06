@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see the `BinaryBuilder.
 The binaries for `LLVMCompilerRT` have been built from upstream sources version v17.0.6:
 
  - [https://github.com/llvm/llvm-project.git](https://github.com/llvm/llvm-project.git) (treehash: sha1:6009708b4367171ccdbf4b5905cb6a803753fe18)
- - [/home/sabae/src/BB2/bootstrap/LLVM/bundled](/home/sabae/src/BB2/bootstrap/LLVM/bundled) (treehash: sha1:be9615ab49c7462348f8aa4495917a006f5ad8b2)
+ - [/home/sabae/src/BB2/bootstrap/LLVM/bundled](/home/sabae/src/BB2/bootstrap/LLVM/bundled) (treehash: sha1:b8cc47b8504e6abcf9927d8fa01c95b75d4007b1)
  - [/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6](/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6) (treehash: sha1:a218efe91088b4350378a897fea2fedd883d9538)
 # Platforms
 
@@ -26,6 +26,8 @@ The binaries for `LLVMCompilerRT` have been built from upstream sources version 
  - `Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl")`
  - `Platform("x86_64", "windows"; )`
  - `Platform("i686", "windows"; )`
+ - `Platform("x86_64", "macos"; os_version = "14")`
+ - `Platform("aarch64", "macos"; os_version = "20")`
 # Dependencies
 The following JLL packages are required by `LLVMCompilerRT`:
 
