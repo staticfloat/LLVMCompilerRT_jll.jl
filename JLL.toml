@@ -22,18 +22,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6544b74098bb46c50c764d02b899ade919bd674a"
+    treehash = "sha1:eb55800cdfee609cca707342cb92478b979a9d48"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:fc6fe71930fec1590a75ba6cda7cce4b8953ee5475effe0074328a32be274eec"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:bd159957c1294a6b66f64571f7e1f66ef104f7e7120dcc7559879ddd15a343f7"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:20001b159877a6ec9ce23e41c9ab0025bf6c67c6"
+    treehash = "sha1:74149c5492eafaf9b33aba9929f2be5ea09a430b"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:60a47f6d1d6776938fe600ca63bb59869428a7c783840190a9efa5f8127d56ea"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:64a979181a6b0d2573281b7495714c239a26223ca7a954b4e4e1225c3607a0e5"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -46,11 +46,11 @@ products = []
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:f548e5512833a6809c22f969b46ce29e79f6bc2a"
+    treehash = "sha1:e84e04a7cce7348d077849556eda4fc4d50328ab"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ec8dec276f5477360360d56e88ff01ee8867e4d6602513add1213672b70e0746"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:eb48e62363f72b2d6b16b83e494943f7a1a1cda3940899d83136253151208291"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "i686-linux-gnu"
@@ -70,18 +70,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:2b4c88d4ba5ffb4b22304cb19a0583be3feb7542"
+    treehash = "sha1:f7ef9b5ff7b2059c3a1f18df8e5ac1f4c08512b8"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d1bc15fa9530752198486c89c70d4f01ef22b63926e7505435d4a5aa6d491e03"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:d84439cdd62c77e32524d0ff401dbb959b982ba19e0689ab43e17e2dc0127193"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:fc3e46d243075244cd5db31e2628879e703890fe"
+    treehash = "sha1:bf91cf09436684e90d0e1ccc9fd4e585bbccb2ac"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fd9cf7cf17ce8ee3ab8d32316cbaab8dab0ed7eb8695f1069c4002fdd194858b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:5421135c44f3a00cba4a99c3a90982ca07dc990bde666c97e4c84e659e77b275"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -97,8 +97,8 @@ products = []
     treehash = "sha1:68c27520c816ceec4ab9cd65688d8e1c195106c5"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:44fde9e63a88f7f808d03eb577cb9e734bb0f981c704217473f99048c3288273"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:7af9ca404ed6a36f4739362ea9475d9e3e5a8c60626e1019e03f57d66b6b9513"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-i686-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-linux-gnu"
@@ -118,18 +118,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a878031ffded4f62345aba6b06437613557018c0"
+    treehash = "sha1:98578087eb824d074a98bd9dfccfdb96c4f7f802"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9f67a220dc6fbc56937348420264a961b0fc6ab1514ea99458c4fa0a4a92b470"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:10172f67b329399e91db259f90acf154a57d1da175614efafd8d90430ae32a54"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:b100de8b29676bad8316bc29c6df048e349b78c3"
+    treehash = "sha1:af4b1085d164c63c567a9b3da4107bd42f9c1c92"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b57028e5becf400f9468a1e0e24d91e4fa4f46c370fc53b7b34263680346915c"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:26f60c39741f62b282e1fe5c65ef7074797d928405de1cb2e802f96fa095f294"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -145,8 +145,8 @@ products = []
     treehash = "sha1:c7b7beab6dd08a813d9276dcbf1d936943621365"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:243a31d72e610b1acf6bc8d38ff32e4b7081e7151180459de93b7565fa2faa19"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:86eb290f497951611377ac03f6f3fea91a1c0303c733c879c1470cba865694ec"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "armv7l-linux-gnueabihf"
@@ -166,18 +166,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:3c01fba993e0da90c15fd9a29aa8fab274ceb085"
+    treehash = "sha1:9a475417cefa2d7f854309e5e220a732a98b75b3"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b183d26f0adf53ec22d66bd9616116e73431d30707aec66a7739892c5b155f23"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:d735611d42aed748847bc4d3be2c958d4aafeefabcdaf3a446011861fc7afb3a"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2c8c24af4b9606664683b254415a62980b95a9ff"
+    treehash = "sha1:ca988dc2c3fe266530ec9301e8431e1cdde368b1"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c700805d74431cbdbb42c8be937618b9f93e03ac13cc70e73482a4c5a11a2f7b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:e20c3bba96b6d891b5443c48826f81ff7858af858962621df2bc2514fd6c00da"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -193,8 +193,8 @@ products = []
     treehash = "sha1:d33a50b469687e12ac3d449e1e7ab7b45d945b35"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:079a401d8d432748cc4d8bb65d1509bcf6a9698bb618a48d0875c178b00765ff"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:397b9955616b4d703acbbaa2afe939dd0b0d7da78cd9f3d6b818aaa6ed12a5c3"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "powerpc64le-linux-gnu"
@@ -214,18 +214,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:1a34849a6a47244d43587509ec135f0388ca7e9f"
+    treehash = "sha1:40a6f2887754081e954ed8625519b4dfcce99920"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0e12bedd150cd58adc790d531b9ac4c02595c9e3ef9e0ea1b74e78e1f166439a"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:43e6364da8c70b441b458529251b7686cd7f840a9348ca1fa0e4306c3fdaf75f"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a3319dad9b99502f37d2953cd376a77f93bfa2ed"
+    treehash = "sha1:9ff20e525b1bde511b702452924b735aea633c0f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:26192d8d69556ea4ffcba66d00d3100a595ec4692071be0f2874bb5490034482"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:b03aab4acd0ab851ff5e9cb499effff4b613d7e7cf8727be0ef1e1623857c3d2"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -241,8 +241,8 @@ products = []
     treehash = "sha1:369db753febf4f658544f1cf20311b24f12381b9"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:8ec064d4805170bc620d4b42c66c6d34965919a55c06d7c72566d40ab5a38d58"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:5f14d5a97eca64f7f5714da0b76015d7f533d4ff69827408536573532c966e20"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-linux-musl"
@@ -262,18 +262,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:d31b6314b969d846dbdb23e44df3c088bbf86dd2"
+    treehash = "sha1:c1cf4f9509ff1bb8115f4d30583b3170763f2a27"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0d15db18c808ca99e7cdaec590979d23c842b3f42b9d5162344864ec35043a69"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:b841097dc196e711f0f869d87e71a8db1370e41e2fdb926651502cafddb30efa"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:0b92762b51f408ffae192d89e99e41c892000570"
+    treehash = "sha1:9e2e2df3ebd9ee2c76fe537be7964da3bcd3f84b"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:ff5ea3e10d62fb2e5b111cfe2da78ab9057866677cd2396a6d47a560a4dc1ca9"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:1854b84cf6ab59f3de766193d188f8512bc09a975561b3cdf547201861f905a9"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -289,8 +289,8 @@ products = []
     treehash = "sha1:1f0f8a1a8b4384e1e07dd6e4c92d0e03a6b07fa1"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:384d90471817440db3889f30bded2c1a7a320545d6a9a0902294a1707f0fd0f2"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:8682aab866df6ccf08345598cafcb184a93ac9c49d66ab0b6f1e7dffe9b4ffaa"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-linux-musl.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "i686-linux-musl"
@@ -310,18 +310,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:1a3484c0abfe1a960eae8b514c95bd66be4f9be8"
+    treehash = "sha1:a09f90d7dab466cfbd7f129550675c644f66654f"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:504752f79c6d059983d46c3904cec24f7bc900f5d25aa666a04533bebd0381b7"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:e38d9ca3802b6c63081096268632a368b85341f9d42b5ca0285e37d1ac8a5117"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:0bf6fec85938dd6637999308c85505b2ea579892"
+    treehash = "sha1:111f8496843629c34c02525d170ee43a6e34663e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:43bf5e1d76591b8b222d9a195af2fe571dd8452e27a6e6b932001dcec3a0c391"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:6291278f0b0f2005cec5999d3d8d7ae82898bb731cddc077824420bd77463b35"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -337,8 +337,8 @@ products = []
     treehash = "sha1:3cfbbd3e07c07252f1a3fb83ccbab9d2b920bfb7"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:04adbb47265dc7224167d0259dc5a63830db10a8649c831de6daa35aedd1626b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:31e28722d998c810dfe9bda25f7802678aadf99f38e81296de68ec321f8e47c0"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-i686-linux-musl.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-linux-musl"
@@ -358,18 +358,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b003566e3e90ddc47cb3d4a92ff6e3fe794a2c96"
+    treehash = "sha1:8a0642c27d9098390aca1dd449977ee3149bebfa"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9d285d3c6f78cc8840ec6ae7e22f5b08c3e0e423b55d1e7aa042075e8454374f"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:44be92c1471d9ffa856d360940f2438e506ac56c4df4935a8b06b53ac2931cca"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:519bb782935998507127b0db0c691364ca728e40"
+    treehash = "sha1:251b48a23112c1d76989caf5f7b706e4e056e04e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:9043dd4a0f639696902aa5f352309090b8c20d503f7e056c6d07df79e6a2a8b7"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:73ece495c98b1435505e71b7c616890bbf914a9112fb9f7e4131bb87c3a3e90d"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -385,8 +385,8 @@ products = []
     treehash = "sha1:b7215b9befc2584b905c0a57329856450d00ac4a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1246489a339f52c93817041b2456a2e8279f92bd05cff78c0667b63b44c1b1b2"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:5fce5e6d398dfd4402061948d9262b67a3d356a5a2813617e52f7fdb30453682"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-linux-musl.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "armv6l-linux-musleabihf"
@@ -406,18 +406,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5662ad08f59d6286c335e656241a37f810fcd559"
+    treehash = "sha1:d633b60abf20db849bb692fa1b2fa176ef8d0df7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:67c1309ebc1cbc58aca09d2f77b8ff4b06f1553a9a5e68fb4c95a5d3dc1a6881"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:811b9bb3f081635a0af6c4fce6d79d3d80d1e02214a01c9ee79738640e0ad508"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a86df56400665e930c046abfef3de5e51d8d009a"
+    treehash = "sha1:5e121af02c265b064575928c63879fb606e188c6"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:5767bcede471bdf6a217cb6105351f842a598dd75d0b17e65f83b39405a9f712"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:608c09b139e4d6a434e0cac8be25cbaf5da35f716c4aaa24ebd3e9a681b6bf20"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -433,8 +433,8 @@ products = []
     treehash = "sha1:6eb8fe6f61c8c14057fb62eb00352c2c8dddf6d9"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:f5b07d82c7d7a0cf5be593622cab262601471c335ed24cadeb984782790959a9"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:9e71512a72759a8aad7812e6741c5b11c08af375aad1fd8ba7e1615f4a8e69e6"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "armv7l-linux-musleabihf"
@@ -454,18 +454,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a0e3193ed13467a62cd7a409fa3b2b897fae6db2"
+    treehash = "sha1:985ef06c33d9d1c0113d12480dc3306b699717f4"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9ad12d89fa2d455306bb605d25fcb16027a76b384ceef14310845d5a456dfd9b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:4be37da153b74eb7bcdbdf5d9746dea1ef51cd89f1e41024416da07620a672d0"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:c9dc4efd9e1743855c2536a599dcf68b1420a9fa"
+    treehash = "sha1:6e96f0c55ff15457ddbeabc06dac17b47788cd1a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:760406ac1e8e1de39ffa2c38265b360eaa3961c6b5fe03467a0a7ad120f53712"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:6dab176e02d0661ca8574291f597ddd6c03f9ac030627a78fb38a7220d21dc4a"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -481,8 +481,8 @@ products = []
     treehash = "sha1:39255511847460f7efd2e210fc30d9156b56066b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6ffbf3540d89864e3ad3a2dcea8e8243774c75f58e23803c2a99cdf1b2f2a3ec"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:853eda97bfac4b39235e536975187632864c3650aec0d03d7681e35ba23aca50"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-w64-mingw32"
@@ -502,18 +502,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:579e9fc79a868cb05bbd43944884778251f618dd"
+    treehash = "sha1:2e187b3254a4f8a129e78a6d55495699e77a519d"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:eaabecb470fee3fc87e10357c3e423b85a9de4d988fe60918ee3184a4170cf2e"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:495936b01b07f2b0f1d9ea9a14451ec7310086bba4c929f191f08c5361be75fc"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:65449bcc71d592ddebc11822c9b04193346f07a1"
+    treehash = "sha1:9cb534d56a7d1a141e0414c0e4b7c2ccb689fde1"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:48e03c65247b72a123196dc3213fa4b4fd2696344192e8543d4eb2250968b778"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:f2ba7a85a429594faa50bd1f36d8ce65f5f4663ec506948f93d1dbfb332f6df6"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -529,8 +529,8 @@ products = []
     treehash = "sha1:a4982ad3c1a605714bce4d77cc74780090cbebab"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:bbf475e034f401665e403cab4f0ca6164ade71b03ccd77b8dd309c56f77daf5b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:2180f3da35528e572713794f83105fa838a7a9dbd85586ba957a1d67b499ea95"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-w64-mingw32.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "i686-w64-mingw32"
@@ -550,18 +550,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:e1e700dff5772592d474a0631cc2fe8e41cc86c5"
+    treehash = "sha1:31ca23ccaddfa1c8fc823d75c1fd3416db1539af"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:262efc23582ed2ce373eda734d02cf8427b8334702bf58b28a3d6a428551022f"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:c53919e39efc320d89971155d1b07864debb2a1e3bfbba9312e76cffe9f58330"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:6fa3ed0d433cfbe341b85fc946ba420ce78b7b49"
+    treehash = "sha1:ce32a55dac07799793386197ecdf350a1280252e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:98ad14330d008ef7025fa76507c1a3d2b116d46e3da0c6a64121a6283880d8d3"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:a887a02f8d68ad7f5e2cad50b653cb8a8fe47946528f6fc29152e85ea90c3376"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -577,8 +577,8 @@ products = []
     treehash = "sha1:93b2a4dad059fbfaa5e6ae497aae221dfecddc3d"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:a35733c1eb735952b3d45a2923b24e436b15c8c69114f5c21cab996cba2684fc"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:513b11280a758cd7d4f168fae3b47ca1aef98b4df9f275eaa28e7a7e845f569c"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-i686-w64-mingw32.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-apple-darwin14"
@@ -598,18 +598,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:867b9108a1943bf9415ffa7d0d13b6a53cd95689"
+    treehash = "sha1:1aa4fd860fd43a72bdbdc44763f3880b17fca364"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:33624e36aeb3b1bba32272a9d73fec93b9eee6348061107f78eba04fd6bba91e"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-x86_64-apple-darwin14.tar.gz"
+        tarball_hash = "sha256:e1e2ac570d0b9828b8c4939c212864b7ce7468a3510b01d1e4751a7e6aaad802"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-apple-darwin14.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:158219079cd033ec988009133fc768acfbcc7f42"
+    treehash = "sha1:d7c4052758bb6db4e53df70a0415b1de24fe7977"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4d89cb6fefc868ed417e8e8f4f347eff8d888687fa9d789bf59585c19757af49"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-x86_64-apple-darwin14.tar.gz"
+        tarball_hash = "sha256:58fbdcfa7f0feb81c025167b9602297d06c9bd2270fb8375e58a5b885b05696b"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-apple-darwin14.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -625,8 +625,8 @@ products = []
     treehash = "sha1:5e0d3b31eb04a603e0d56def1706192e3363f687"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:cd70b3fa7d108f3580459516dfd3af1a806e118dee7796ef8ffc4a5a4d8801e1"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-x86_64-apple-darwin14.tar.gz"
+        tarball_hash = "sha256:483d36a8094d48887623bc120ff421ece46d591bca23981b6f6ee4ac6311e643"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-apple-darwin14.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-apple-darwin20"
@@ -646,18 +646,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b6df7e07fcb9d71878fcf4e29223dd6e582da232"
+    treehash = "sha1:cac139d3f0f091cdac8dfeb7f2fe19edcbf82bba"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7c2546dea63475f8e970949d30889c19bffba2e4cec6c33408758ede9e22b741"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:410a21bedc002e65bdeed302c335227451abad1c6c84e92d1fe013f49d981a1f"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:e48c6803f37b366fd77ab7df933ce1c901d18c27"
+    treehash = "sha1:873f6c333a41a6ac8507af4e3488511af3a296b4"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e053c6358075673b9355c5178ec978afe9b8164621fcf89627afa76032eeaf7a"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:39f407aae8a3e2724b71b4969e5112bfa7b8973cb76892df4815051c36bf9cf6"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -673,5 +673,101 @@ products = []
     treehash = "sha1:3ded758938aba5a0f7860490a055b833cd5ee456"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:d2c458f4ecf3917edc9771e78fb09a508495b9bfefa96bac0ede075d9c356e31"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7/LLVMCompilerRT-v17.0.7-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:6a5717abbd889e9fe25b1b9e3797fd88b7b303e945a08d27a4bbeca605517468"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-apple-darwin20.tar.gz"
+[[builds]]
+name = "LLVMCompilerRT"
+platform = "x86_64-unknown-freebsd14.1"
+lazy = "false"
+src_version = "17.0.6"
+products = []
+
+    [[builds.licenses]]
+    license_text = """==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"""
+    filename = "LICENSE.TXT"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:e1e1c8a6110a056e91a9ce57c1bcaeda2495fcbf"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9cddb5f60c5271e5da05fe361bcbcc7d35f572b1a05cce887ef7bc91409888f6"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:ee6f4066d6e27394b6203b4e1cacafb552bbaf16"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2aa40b9a89bd221b3e6a83c8e119c6ad82d0bda37140f05dfd0df05300235ba5"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
+    url = "https://github.com/llvm/llvm-project.git"
+    [[builds.sources]]
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
+    [[builds.sources]]
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
+
+    [builds.artifact]
+    treehash = "sha1:d3e02d18d77fa5ff4fde3f71d06f6047b92c8f52"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:64cc8b95ab77ccc0431bf16ce9cc517336b6e5514ba1d5c92a67667b1945dc08"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
+[[builds]]
+name = "LLVMCompilerRT"
+platform = "aarch64-unknown-freebsd14.1"
+lazy = "false"
+src_version = "17.0.6"
+products = []
+
+    [[builds.licenses]]
+    license_text = """==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"""
+    filename = "LICENSE.TXT"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:53202e0d7817f0f4a4621adfc43704841077a777"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9247f00c12dc62f20802565362b4b00126583390418b10d626d6b7e1831fc574"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:5e09428aa418be91954c0128ea69692f3f6051ce"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:f77fd5dec501ee878c9acc2658b1c3a540b91f5cfc2f173918c297b18063d6a0"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
+    url = "https://github.com/llvm/llvm-project.git"
+    [[builds.sources]]
+    treehash = "sha1:7ca79cf37d73c65d637da0be61e802b6f0f8c009"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
+    [[builds.sources]]
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
+
+    [builds.artifact]
+    treehash = "sha1:71971edc552ea3e9c53cb90e45b0683b8cbc11bd"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:db0dc16cf9f898911ee11e61b44959666dec2eb098c5f774f6eeda27d8b21fd8"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
