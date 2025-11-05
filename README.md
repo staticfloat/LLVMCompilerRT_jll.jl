@@ -26,8 +26,8 @@ The binaries for `LLVMCompilerRT` have been built from upstream sources version 
  - `Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl")`
  - `Platform("x86_64", "windows"; )`
  - `Platform("i686", "windows"; )`
- - `Platform("x86_64", "macos"; os_version = "14")`
- - `Platform("aarch64", "macos"; os_version = "20")`
+ - `Platform("x86_64", "macos"; os_version = "20.0.0")`
+ - `Platform("aarch64", "macos"; os_version = "20.0.0")`
  - `Platform("x86_64", "freebsd"; os_version = "14.1.0")`
  - `Platform("aarch64", "freebsd"; os_version = "14.1.0")`
 # Dependencies
