@@ -1,5 +1,5 @@
 name = "LLVMCompilerRT"
-version = "17.0.10"
+version = "17.0.7"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -22,18 +22,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c5b8d3c87adc08e04be61155515dc9a06cbf7165"
+    treehash = "sha1:ebbbd852411564ba81ebbacaa8f73496be54d69e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9d9c6bceefe496a1403d497059c716107458c850eb99601722ba778b122fab7b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:8f85db29312a08748f5d07835ae65fe0ad0b87b0a58537ec29b3daa453ac68db"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:74c6379adb98f3700ebc52e2117425d7f7d8a117"
+    treehash = "sha1:d94317818b865dd9e566ba03bf777a9450e6ca0d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:42b8810ce44fb97b528dbaf3ad4923613b7006896087959d7ef5d0c3a0c1ef8d"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:516b27fb9539855ea4c9d4f428870f74dc249b529785458a15a08c344acadc88"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -49,8 +49,8 @@ products = []
     treehash = "sha1:37c33b7974c197ea4dafc92197be68bf9d72f0fe"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:edd660fcd9a464484541d2849bc68678b6bfeb2f909c920c56e640cc5b937103"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:35e652ecddd89f98962775a732ff62e9e8e0304797be61799b1120cb990df318"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "i686-linux-gnu"
@@ -70,18 +70,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:257eb11d6086a3b3440d428c8b972736f8d13ba4"
+    treehash = "sha1:9ea76b8481439f23c198b369fdd1c6601b404d71"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:41549793dd94139783356676ac70fcac22266890ccb88cb1684ef3fae8b1c3a6"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:9caaec630a22fc22d7debd24b16e6e7170d4b6faab4cbba703e6bbc3e969f5c3"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:db18530786ca2cb3b37098818d59c41ef65642d8"
+    treehash = "sha1:91e0e5f6a5cc59b62639d53eb753bf72a3dcdf22"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fa02fddb1ddcdf945bab51686405d084050ff61fd3090fcab33886940939e3a6"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:fde097ac167c02b878c94d9016a1343e31d6d505c829115efd9fca9eed8fefb9"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -97,8 +97,8 @@ products = []
     treehash = "sha1:3561d6215aa31f635a3797be00c56c64712f2eef"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:36f12c422fa08eedd262fe8e4ad4297e2c2d14effec8a5e7c8697a330c662636"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:96ff7a709871fcd1d12d59db257d5c237204be9dd102e3fa1322e180b269022e"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-i686-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-linux-gnu"
@@ -118,18 +118,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7e2ab1753fc43e6e65f12121e50647b5eff81bae"
+    treehash = "sha1:25704bec6325e303f6f2b52540d5bd50fa2f71ce"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:4aa95c4a1a12e0bcb48d9febd0e663acf868fcc13b3db9afce9255870ebf1169"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:d4f91f944b142e019d8050a863453583d178e3b42358061f27cf22808aac9ea9"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:31664cf5e68fa8baea9538a161898d4d21f76a2d"
+    treehash = "sha1:9983affa0dab63033823bd81a0645a567d650d56"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:7504e767b1aceaeabafdfa71788637e0492bc1c6ca6f3e0bf47f0aaaed7d097c"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:0c858c56f56ed424e323dc88900213a939c277dba10cd70c273805ccf13018a7"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -145,8 +145,56 @@ products = []
     treehash = "sha1:011d8e2fe83c08f80b3445721add4ba8fb54847c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:743d3dcc97528c2a94ec43ac841204ff26a91434dc75710b51c92870970cdb20"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:55b2012c3dcdf824bf4f4cf891e97f2237d6281a0b38a6d5a3d8d20e48ed8795"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-linux-gnu.tar.gz"
+[[builds]]
+name = "LLVMCompilerRT"
+platform = "armv6l-linux-gnueabihf"
+lazy = "false"
+src_version = "17.0.6"
+products = []
+
+    [[builds.licenses]]
+    license_text = """==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"""
+    filename = "LICENSE.TXT"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ba8762913efd94a682fbc729168857a50f60be04"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9c2289e714e70a4f3b3a012b9aa4b631d74e808ce470706ad0b71927a259def2"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:527fbe3c9fe248a3cc6f873271fd91204cdc24ff"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:94cd694dcb172c82cb85957f37f51cecf4c9a6d01cac21b7393cc88631c16533"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
+    url = "https://github.com/llvm/llvm-project.git"
+    [[builds.sources]]
+    treehash = "sha1:46e08577885fa9994bb9b73bb42738aa6fc34298"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/bundled"
+    [[builds.sources]]
+    treehash = "sha1:d472d2a50ae0defb412bcb0f8b937cd142e9dfcf"
+    url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
+
+    [builds.artifact]
+    treehash = "sha1:a8cccf9a4364414a6d42e9989e9507f9b8a1881a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c811af3cf7fc2e7045024f13b66b040c59849eb062f3513e3705c899533c8e3f"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv6l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "armv7l-linux-gnueabihf"
@@ -166,18 +214,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:e3b00ecbd166d18b37f6a3b46c1a6c5e493968a8"
+    treehash = "sha1:8735d42e008306b675865c335d6f4c72418ff723"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:18b2f0af33a768418680a3e83a30c5e0cfd1c1dfb8dcbf621acfa0670931620e"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:7371e238375f5fdb1645a4988d952a3dc24a0d8b28c8ecb6d22f5c6ece25724c"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1d9b0185c7b9fd4ae8514c1c192d97c849bb9c09"
+    treehash = "sha1:e70ad3344a700241c18be21cc70309589ef3bd5c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c9fc2e1e89260af2a58c02c0086b50095e7fa9627660e156ea69e24f936cee53"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:ff318711ad535563d6e4c0afb8c4d93365b7c12243196d0c5d62e07f1e1b6091"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -193,8 +241,8 @@ products = []
     treehash = "sha1:d48234690810cdebfb6d053dc8b2cf982bd6c749"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:0f9e6f099aa18dd23be0ed16510a25565087940f03acd45a8a73b35603f4e5ee"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:a4e18ae2598095e8b176a22f9b8f17de9e65c1f20541c06889b1e34d61f8942e"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv7l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "powerpc64le-linux-gnu"
@@ -214,18 +262,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:65019e106e122582e34b01f6188649eaac7ec8e0"
+    treehash = "sha1:76aeb33c96425ffaf77c78c0d22445001d351f37"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6c7e643c4addf6b426862d61a3877654ae3778f00bac192270f2daa0ad4e078f"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:e745f3076a39f1ad9a1315e9eed57899470a98c837ab0d7e0e8761d9aeac06db"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f0707105fff84636b0c8357855a5d4f31eead574"
+    treehash = "sha1:5d2ebfb6400c74b9f6ac349cd9e3d075fbe316dd"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:cea482462668a0690a3412ee1aa96b70398634b21907e79c5be65c39444f1c2b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:f6cd2d9d1b143f9336fafdcc3d78b9ba1d6ec483f9f146eb6b1283d5726b26c8"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -241,8 +289,8 @@ products = []
     treehash = "sha1:8ff9ef7934322f64d04de5dd5aca18f4a3499e8a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7baf1d0d18f78e1f66814a142b40221adc8d6235df91ed4e9fc9b472cf37a669"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:ce751cf196ebed15b4288ba9cb15020540c656caad11ed478bc4bf7e4a01c946"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-powerpc64le-linux-gnu.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-linux-musl"
@@ -262,18 +310,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a47bb5cb8fc083e98b50e7cab4ab42ccdc45d32b"
+    treehash = "sha1:c0fa9fb3179310266948de939918c92df6d7dc6b"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b53561d780128f8398a84e86fa8f2ce23d268e700856d886ea945810ec0c4227"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:ba1c679cf17787b142587000914dbe72a66f7ebada6c4ad4efd66bf26ac6fe71"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:421bc771992c79e8df6dcf293f0509f1746bd689"
+    treehash = "sha1:1b2c0ad66d7c920c6dc260fbb545421ea63c6a7e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:51d382a81283e8ef8d8cd4e492676aad68a48754c9d3dfe0cadc87d7056be2fb"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:5cc71f1f0d02c87208b4e7822a78d0b7a0c232890033cd2e00bdabd084cc661b"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-linux-musl.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -289,8 +337,8 @@ products = []
     treehash = "sha1:12c284e0744bc08d6ca32c957e1b7194fe1a94f0"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:34c6ad1a4e02dee09a552f3c5c434bf1ceab6db197370c4969c49f038c658d79"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:22682ed3ebc8a366d54186a9aa4d93259cf0108f6f2839fadd7ce444eb920b7b"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-linux-musl.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "i686-linux-musl"
@@ -310,18 +358,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:27ffc17c902bb06d60a2944c17c1f30b8a701868"
+    treehash = "sha1:ea7727eeacaeb22c2367b1cabcbfc55542dd5f3d"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f2ad4b716e75b6d81ab5864bf3c4fa39f41d1e7fb94f6b3023d72f94542b8179"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:b2cb8f9eed794f1707f001e06e47bbbb2f772872721a67a5a88df3506a2e45be"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:e1c28ac0d257eacbc2a2c1e2d1d7fd25979bf0b5"
+    treehash = "sha1:76e19134ab0d05adbb6df59722296f92be102d3e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:d3960c2607f4bbe381094d9c83a07902477cb8ab5ab5c40e8e76b9e1cdd2dc7b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:e806f88fa9fcd52bab06dca41ea54dfdda6ca83bcdaefbbc4e4b8b408ad8b539"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-i686-linux-musl.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -337,8 +385,8 @@ products = []
     treehash = "sha1:f60f8b683680970695d6bde1ba8907fec04bbf7a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b5be2a947988f925f4175a6fdc32ca6998f55886f63e2473d55ff4bb24dd1375"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:2b934458e30438fcdbc74a554c240a222165ada775db27232fc012421a591b50"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-i686-linux-musl.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-linux-musl"
@@ -358,18 +406,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4f55cd28acc2445491809e1682123edab05a6651"
+    treehash = "sha1:bda43f3b81d4b3a08ffd66d997ace35ac0f5ca09"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:1192cd7b3404d3499e44d60d1397887d4ba6eee790522c1078b4f29b68001bb3"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:f8146a620b6d98b400787abbc1bd5a36fba226f023af182ea89596ae82dfecf3"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1cb36fd80ac0691022baa16fe0e2bf381164998d"
+    treehash = "sha1:2b0239db1333ced7f741e939f9e6879470fe7595"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b1fbce9908b86ca15e355dfa0d8f3771c24931ff85e04848366e80c1fe2d5b0a"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:b013eb50b3f1505e3da9a59e700a4585f092e758fdd33c2bdcf7de92c80c785f"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-linux-musl.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -385,8 +433,8 @@ products = []
     treehash = "sha1:3aebbf39889188b66fe94451312f83079fad332f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:921670ad62762f199422eda5d1c10cd7fbd3a5771d8a04a3f422acecb87375d2"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:f6a5f6642adc061fbe6496e4fb4ac434503f4f0a7541372943f55d923bc48f8c"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-linux-musl.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "armv6l-linux-musleabihf"
@@ -406,18 +454,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:16f10c8fd87faf496764f129ec0c0784dd7fdf7c"
+    treehash = "sha1:9ba3f1d61c3ac06b7788a76e3bb37fe35562c9e2"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:e08ada85480391cd9ff851d1da70c5051ec7c4785b11ce3bdaa1530d510a6ffd"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:6e800b835b7f8823297592decdd5e93c0bb407a43d33694959718259d7a8f23f"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:525841e7a69ecb43a9b98962734e50c92f217e47"
+    treehash = "sha1:399b3ed5c02efb1e9ffdc6edd84f57a3c318e0e3"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:99e00fe14512440c6b5f85c11ca3d3dd39635868cb534e6dd72250583e9b9d74"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:c1c0efc83fa0446141e5dca0e46f5033039b84dd6fce7389f005723cd0310349"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -433,8 +481,8 @@ products = []
     treehash = "sha1:393ad49949cb0fef500e07b55b45717f06bbb797"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:bd1d7a968066971adb7a051d4d2daf68f9b49c71e6d17194aaa9e15071d03c0d"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:bbc2e5b71b9507f48ccec202b3db3c8370eba293e44d3cbbd209914107a36c33"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv6l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "armv7l-linux-musleabihf"
@@ -454,18 +502,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:27d7a044cd84ca3f69e44b88504ba3c69d294f75"
+    treehash = "sha1:6c813bbb0ff4d3b3bdcc6a0feab89f687df7bf33"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:bded4d8dfe94c69fc2579f7d151a5bf3b7fb84ccb94c93f751fab9568e7c969d"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:52fcf1acdd2e0bf3df82b1f1bdce451d2e310610ad0cda3cbc6f1ca1f4a5124f"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:77c5c6c99f2b8ca76a9becb91e9e64178e5a69d2"
+    treehash = "sha1:7c2a9bdb13f332760a5a638b1c277031e6d6a1ff"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b2b6549e1b697f44c2adcf3550b6ad75de7bc4a20c655d0a896a91dc08f882a2"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:2719bb646a65abb4dae1d774e816f92a943585b2eaccb923db4ba721f5d5331d"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -481,8 +529,8 @@ products = []
     treehash = "sha1:3bb335c95194a1ab7289aebea01bbddaa8116948"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:f20a88ad11dee3a7bc89f82d0eee5d10cf31222c42c7054f89492617e7b82182"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:8920603a047807830e33202af25a339e3c76eb9fe4ccaca242869158239fb391"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-armv7l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-w64-mingw32"
@@ -502,18 +550,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:d7b58db51c2ba6bf1cae825ae57c22fcbc69931b"
+    treehash = "sha1:46f529ff6a37e6c66582014e37776c4852df65bf"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:06abd9eb4b754c3e73a2061cf1043f9f6f585ae715e0661f76d85ca71015eb52"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:bbe0ebaed6477af1ca4d932b77fb7b4ceded4329a02f5ce5cc4749c28a817786"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:57c7d473d330bf217580bceabcb0a6827ba958f7"
+    treehash = "sha1:1a36f0ee6ff02a7579e717ef8a7c1fb17e692a45"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:5b3a61b1e952f30f56e7f968efbeb86ae1f380d3c34ab3e191f45e2405ce955a"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:4b3ae200cf83a2e87e9836126def18b6e4d70ebf289c096c82774a039590f821"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-w64-mingw32.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -529,8 +577,8 @@ products = []
     treehash = "sha1:f51aba2059371eb5b474c458d742853f263cf79e"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:70037279818d286ba27ab073844990845545d078decf5b1c1c9b75530b1a9828"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:48f2db3f70e53b5fe8dcf723a86b2303f3de9962112524c69149f590e8b1812a"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-w64-mingw32.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "i686-w64-mingw32"
@@ -550,18 +598,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:60dd2e2607efe1744e141d834bce992a1c33ffc0"
+    treehash = "sha1:e3b0ad15a6d10ac91bea34aec1c7e1bf4913ab04"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:c88cd182c2be5975a9be69ac612c8bdd51334c0b4bcb4e23f41e7fc7a5eb2802"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:54348649e2e6c38f3165ffaaff06c8ce6e9ce55d17ab10289287945c81a65fbe"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:35564eaa01cdf595253bb1c8f4b838a62cd5e68a"
+    treehash = "sha1:57cb005f751db0a20f4747d85cf42831f3cd0eb9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:296133cb71d666d7907296a9f8777a6b19e15cd1a691bfec2bf9bf9bd02e340b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:fef7c7e7bdf652b9eed87ffe61f9a7ef4740b83d6a35940058d4d6417f017700"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-i686-w64-mingw32.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -577,8 +625,8 @@ products = []
     treehash = "sha1:93b2a4dad059fbfaa5e6ae497aae221dfecddc3d"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:31f70da99c772133803790936f3bcca0e11f062a09940eeac528d51e17890b87"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:ac94b9cf925a7c7af737cd29857ee60a1c3894577e2c4d304b32dad9fad6e4f0"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-i686-w64-mingw32.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-apple-darwin20"
@@ -598,18 +646,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a9b3905d779edbf42e2c2754ebd3bb9e20252124"
+    treehash = "sha1:c41391732b385c937c1d8899f9a20aba30877c54"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:df29a91410a6f768a07b8cf09942d7367a214a610d9de7f384c189c2fed44ab7"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-x86_64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:3e8781e506aa6cfc0bdf2070197095dec01376e0b54b73ac6504c5e6b53bacbb"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:877f0eb01a7102823b3111fa405b4d62f9fedd95"
+    treehash = "sha1:5fe6a2170b368df643f3e1bc320966581f33f6fe"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:264d04fa3776a0db42f8e248f94561b39d8e4240d630644b8b0100668eda4a28"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-x86_64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:142a54976ce39f213e1572681721b7bbe359293c5aeb8380beeb66e9e4b4a8c3"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-apple-darwin20.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -625,8 +673,8 @@ products = []
     treehash = "sha1:b7e299a375d2393228f478034e002b6ffc81b167"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:44b1256d3d87ef525eca85e1a6116cfb2850d3d4308378e616a2b93380056795"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-x86_64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:1db96a503ba2a85ca58d2cbda4d1362e7220055d68d39a671d8005fcac6245e3"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-apple-darwin20.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-apple-darwin20"
@@ -646,18 +694,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b962184a579e4f4bc115058e343da97a402badcf"
+    treehash = "sha1:dc3c6a85c3a0b94a3cf99c959aeb650d8847179e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:70e2bffa86a9611396a4be85f15271fcdda62cd1e5272a332ab5281e51096d41"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:9cd10b5050626d083e10eae2da1381939de2a5325d85bb894be0caa9baa98f56"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f29d75058941c7d5e26e7ea0391f1fbf67e12a48"
+    treehash = "sha1:78b676b774d05d6468ff6b4b0092fadbd163e2ce"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fa547a593c67ae17670a1608f444e4aa3a1073c136a63cb1561018ddd0005b50"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:dbf68e4b5d810ca122dd77b7e4f528343b99f299d12dea580b7757884e05bdc8"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-apple-darwin20.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -673,8 +721,8 @@ products = []
     treehash = "sha1:cb0d79ae6f1f14c98addd86655e793ac2fcb97b8"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:0e57f33a22157b717a37d3103228af5f51c0face9e43145d7bcc5d3318b4ea68"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:6e35fcfc195f55903bd402d0f47f5812311191ce59103a5b7dc714eda1ff9614"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-apple-darwin20.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "x86_64-unknown-freebsd14.1"
@@ -694,18 +742,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:cb69d66f028ba7477a6564dae9102f259c25e5c5"
+    treehash = "sha1:161574d7eaec37f891bf737d78bc20f9843e220e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:a22fe761cec71dd4ea6e45d60cb6addd64010a0cebd6850cfa7cdf0a1aed80bc"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:d835afbf64058a4317e866f4c14bdc7b4b7f0ce0559d38eac733f48e78102f90"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:7c8668ed353b7e65bc2dc1e30ee21ebd4a3a32aa"
+    treehash = "sha1:8a6af12438ad801e1bff321bd0067d1c6c2fe3b4"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6d2bafca48f9ba9b1eb2a08080ec7ad6159f6bf13bbd920927c87f9dc13f18b4"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:23c247b7a426f5c203b91b985d9ee910fce75be83ff5077cc828cef7287b40bc"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -718,11 +766,11 @@ products = []
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:ecd119256bd18075913ec68c03e012c74dd5cf76"
+    treehash = "sha1:25e7bdc1d37e6e8aec5b8a7d3cdb50c7a8e4d339"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:58d32ff7d6d5e9d13d2224a2a66005c897ce816b98a583cdc0796f78d872cf46"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:a5c8adaa4dc98cdb243758f97180d8800c3e3bac0d00810d92662aedaec78fcc"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-x86_64-unknown-freebsd14.1.tar.gz"
 [[builds]]
 name = "LLVMCompilerRT"
 platform = "aarch64-unknown-freebsd14.1"
@@ -742,18 +790,18 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0615d26494bc33b340c3876c805e376e2b8d3d18"
+    treehash = "sha1:5244701bb878dd937ce2d2c8cc7d9a126ac07991"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b81271a56144fc9c38d675e06769f1a462c9ccb81a19c1acc88964c856a9298d"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.10-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:3afd518265985dea25fb7ce1b8d75425df322d6fb68d04a4c6847b5907cfc830"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-build_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:71f4d3e660c31f15163c992bee5fdd9dfe0c236f"
+    treehash = "sha1:1ab0a917c71e44839bcdbd39c291675cc9e4aec7"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:2965e5558aa10313c0959afb7b8ce25c0486aae136e8f9c52f7084117e06ad9b"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.10-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:61b27847049818517f2494e836302ebd6dd521274bf73628c405441d25163f12"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-extract_log-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
@@ -766,8 +814,8 @@ products = []
     url = "/home/sabae/src/BB2/bootstrap/LLVM/patches/v17.0.6"
 
     [builds.artifact]
-    treehash = "sha1:3529ea97275800e592ebc79df755abf00ae61c9b"
+    treehash = "sha1:de48040b431987770193afa2ad677e11393cfb70"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4fc7bac31a846964052d0dc16f231b581d26ec370468e8e235f15ae70d7190e6"
-        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.10-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.10-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:f3edbf5c9f945f3ddcb010ff582374c25a60bf133986f6778f554e7da80f912b"
+        url = "https://github.com/staticfloat/LLVMCompilerRT_jll.jl/releases/download/v17.0.7-GCCBootstrap-x86_64-linux-gnu/LLVMCompilerRT-v17.0.7-aarch64-unknown-freebsd14.1.tar.gz"
